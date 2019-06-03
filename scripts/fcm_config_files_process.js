@@ -43,7 +43,7 @@ var PLATFORM = {
             ANDROID_DIR + '/assets/www/google-services.json',
             'www/google-services.json'
         ],
-        stringsXml: ANDROID_DIR + '/res/values/strings.xml'
+        stringsXml: ANDROID_DIR + '/app/src/main/res/values/strings.xml'
     }
 };
 
@@ -96,6 +96,8 @@ function copyKey(platform, callback) {
 
                 callback && callback(contents);
             } catch (err) {
+                console.log(platform)
+                console.log("copyKey error : ")
                 console.log(err)
             }
 
