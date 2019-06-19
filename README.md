@@ -6,7 +6,7 @@
 - Right path for Android res xml
 - Cp google file in the right place
 - Use onNewToken on Android
-- Android Framework added : support v4
+- Android Framework added : support v4 from Androidx (and updated import)
 
 
-See original repo for doc.
+See original repo for doc, and good luck.
